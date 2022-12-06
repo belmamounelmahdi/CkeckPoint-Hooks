@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(186, 73, 73);
+}
+
+/* Start Header */
+
+.header .button-content .button {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* End Header */
+
+
+
+
+/* Start Counter */
+.counter-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.counter {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 450px;
+    height: 350px;
+    /* border: 1px solid rgb(160, 159, 159); */
+    border-radius: 20px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.counter .button-control button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.break button {
+    margin-right: 20px;
+}
+
+.break-active {
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+/* End Counter */
+
+/* Start Todo */
+
+.todo {
+    width: 600px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.todo div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.todo .head-todo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo .head-todo button {
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo .content-todo ul li {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.todo .content-todo ul li button {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 30px;
+    border-radius: 5px;
+}
+
+.todo .add-task form {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo .add-task form input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.todo .add-task form button {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 7px;
+    margin-top: 5px;
+    border: 2px dashed black;
+    border-radius: 5px;
+}
+/* End Todo */
